@@ -1,22 +1,42 @@
-// src/components/Tabs.js
 import React from 'react';
-import './Tabs.css';
+import './Tabs.css'; // Ensure Tabs.css is in the same directory
 
-const Tabs = () => {
+const Tabs = ({ activeTab, onTabClick }) => {
   return (
-    <div className="tabs">
-      <ul className="nav nav-tabs">
-        <li className="nav-item">
-          <a className="nav-link active" href="#">Posts</a>
+    <nav className="tabs-navbar">
+      <ul className="tabs-nav">
+        <li
+          className={activeTab === 'posts' ? 'active' : ''}
+          onClick={() => onTabClick('posts')}
+        >
+          Posts
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+        <li
+          className={activeTab === 'about' ? 'active' : ''}
+          onClick={() => onTabClick('about')}
+        >
+          About
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Mentions</a>
+        <li
+          className={activeTab === 'mentions' ? 'active' : ''}
+          onClick={() => onTabClick('mentions')}
+        >
+          Mentions
+        </li>
+        <li
+          className={activeTab === 'reviews' ? 'active' : ''}
+          onClick={() => onTabClick('reviews')}
+        >
+          Reviews
+        </li>
+        <li
+          className={activeTab === 'followers' ? 'active' : ''}
+          onClick={() => onTabClick('followers')}
+        >
+          Followers
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 

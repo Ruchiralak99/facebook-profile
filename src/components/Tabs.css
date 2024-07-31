@@ -1,5 +1,38 @@
-/* src/components/Tabs.css */
-.nav-tabs {
-    margin-bottom: 20px;
+.tabs-navbar {
+    background-color: white;
+    padding: 10px;
+   
+  }
+  
+  .tabs-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    justify-content: flex-start; 
+  }
+  
+  .tabs-nav li {
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    
+    transition: background-color 0.3s; 
+  }
+  
+  .tabs-nav li.active {
+    font-weight: bold;
+   
+    background-color: white;
+  }
+  
+  .tabs-nav li:hover {
+    background-color: white;
+  }
+  
+  .tabs-content {
+    padding: 20px;
+    background-color: #ffffff;
+   
   }
   

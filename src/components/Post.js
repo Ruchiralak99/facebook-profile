@@ -1,11 +1,10 @@
-// src/components/Post.js
 import React from 'react';
-import './Post.css';
 
 const Post = ({ post }) => {
   return (
     <div className="post">
-      <p>{post.content}</p>
+      <h2>{post.title}</h2>
+      <div dangerouslySetInnerHTML={{ __html: post.content }} />
     </div>
   );
 };
