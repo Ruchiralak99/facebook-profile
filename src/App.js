@@ -12,20 +12,23 @@ const App = () => {
       id: 1,
       title: 'Softmint Software Solutions',
       date: 'September 5, 2023',
-      content: 'We Are Hiring Intern Software Engineer. Send your CV to careers@softmint.net',
-    },
+      content: 'ඔබ සැමට පින්බර වෙසක් මංගල්‍යයක් වේවා! #vesak #poyaday',
+      imageUrl: '/images/img.jpg', 
+      profilePicUrl: '/images/profile-picture.png', 
     {
       id: 2,
       title: 'Post 2',
       date: 'September 6, 2023',
       content: 'Post 2 content',
+      imageUrl: '/images/img2.jpg', 
+      profilePicUrl: '/images/profile-picture.png', 
     },
   ];
 
   return (
     <div className="app-container">
       <Header />
-      <ProfileIntro /> {/* Make sure this is included */}
+      <ProfileIntro />
       <Tabs />
       <div className="content-container">
         <div className="left-section">

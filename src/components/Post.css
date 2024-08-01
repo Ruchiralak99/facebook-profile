@@ -4,4 +4,39 @@
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 5px;
+  background-color: #fff;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-right: 15px; /* Space between profile picture and title */
+}
+
+.post-title-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-title-date h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.post-title-date p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px; /* Add space between content and image */
 }
