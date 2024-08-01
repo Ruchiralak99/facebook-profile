@@ -1,8 +1,7 @@
 /* src/components/Post.css */
 .post {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
-  
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

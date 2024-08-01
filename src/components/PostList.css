@@ -1,0 +1,6 @@
+/* src/components/PostList.css */
+.post-list {
+    display: flex;
+    flex-direction: column;
+  }
+  

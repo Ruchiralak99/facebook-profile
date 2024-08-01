@@ -1,52 +1,46 @@
+/* src/App.css */
 .app-container {
   display: flex;
-  height: 100vh; /* Full viewport height */
+  flex-direction: column;
 }
 
-.sidebar {
-  width: 25%; /* Adjust width as needed */
+.header {
+  background-color: #f0f2f5;
   padding: 20px;
-  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  margin: 20px;
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px;
   border-right: 1px solid #ddd;
 }
 
-.main-content {
-  width: 75%; /* Adjust width as needed */
+.right-section {
+  flex: 2;
   padding: 20px;
 }
 
 .about-section {
-  /* Optional additional styling for the about section */
-}
-
-.tabs-navbar {
-  background-color: #f0f2f5;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.tabs-nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: flex-start; /* Align tabs to the left */
-}
-
-.tabs-nav li {
-  margin-right: 20px;
-  cursor: pointer;
-  padding: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 4px;
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-.tabs-nav li.active {
-  font-weight: bold;
-  color: #007bff;
-  background-color: #e9ecef;
+.post-list {
+  padding: 20px;
 }
 
-.tabs-nav li:hover {
-  background-color: #f1f3f5;
+.post {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
 }

@@ -1,8 +1,8 @@
+// src/components/ProfileIntro.js
 import React from 'react';
 import './ProfileIntro.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faThumbsUp, faSearch } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookMessenger } from '@fortawesome/free-brands-svg-icons';
 
 const ProfileIntro = () => {
     return (
@@ -34,7 +34,7 @@ const ProfileIntro = () => {
                 </div>
                 <div className="action-buttons">
                     <button className="action-button" aria-label="Contact via WhatsApp">
-                     
+                        
                         <span>WhatsApp</span>
                     </button>
                     <button className="action-button" aria-label="Like this page">
